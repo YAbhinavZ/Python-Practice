@@ -17,10 +17,13 @@ class Calculator:
     @staticmethod
     def greet():
         print("Hello guys!")
+        
     def square(self):
         return self.n*self.n
+    
     def cube(self):
         return self.n*self.n*self.n
+    
     def root(self):
         return math.sqrt(self.n)
 
